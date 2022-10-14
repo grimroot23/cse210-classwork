@@ -17,8 +17,6 @@ namespace CSE210_Hilo
             get{return lastcard;}
             set{lastcard=value;}
         }
-        //---------------------------------------
-        int score = 300;
     }
 
     class begin_game
@@ -29,8 +27,30 @@ namespace CSE210_Hilo
             int new_card = new Random().Next(1, 13);
 
             init_card_score draw_card = new init_card_score();
+            draw_card.Lastcard = 0;
+
             draw_card.Card = new_card;
+
+            //get input of h or l
+            Console.WriteLine("h or l: ");
+            string guess = Console.ReadLine();
+
+            if (guess == "h") 
+            {
+                if (new_card > draw_card.Lastcard)
+                {
+                    Console.WriteLine("okayyyyyyyy");
+                }
+            }
+
+            
+            
             draw_card.Lastcard = new_card;
+            
+            
+            
+            //draw_card.Lastcard
+            
         }
     }
 
