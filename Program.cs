@@ -1,15 +1,7 @@
 ﻿using System;
 
-namespace game 
+namespace CSE210_Hilo 
 {
-    class Card
-    {
-        int face = 0;
-        int lastCard = 0;
-
-    }
-    class Director
-    {
-
-    }
+    
+    
 }
