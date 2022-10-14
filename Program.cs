@@ -30,71 +30,42 @@ namespace CSE210_Hilo
             draw_card.Card = new_card;
             int score = 300;
 
-            //get input of h or l
-            Console.WriteLine("h or l: ");
-            string guess = Console.ReadLine();
-
-            if (guess == "h") 
+            while (score > 0)
             {
+                Console.WriteLine("h or l: ");
+                string guess = Console.ReadLine();
 
-                if (new_card > draw_card.Lastcard)
+                if (guess == "h") 
                 {
-                    score += 100;
-                    Console.WriteLine($"score:{score}");
-                }
-                else 
-                {
-                    score -= 75;
-                    Console.WriteLine($"score:{score}");
-                }
-            }
-            else if (guess == "l") 
-            {
 
-                if (new_card < draw_card.Lastcard)
-                {
-                    score += 100;
-                    Console.WriteLine($"score:{score}");
+                    if (new_card > draw_card.Lastcard)
+                    {
+                        score += 100;
+                        Console.WriteLine($"score:{score}");
+                    }
+                    else 
+                    {
+                        score -= 75;
+                        Console.WriteLine($"score:{score}");
+                    }
                 }
-                else 
+                else if (guess == "l") 
                 {
-                    score -= 75;
-                    Console.WriteLine($"score:{score}");
-                }
-            }
 
-            draw_card.Lastcard = new_card;
-
-            if (guess == "h") 
-            {
-
-                if (new_card > draw_card.Lastcard)
-                {
-                    score += 100;
-                    Console.WriteLine($"score:{score}");
+                    if (new_card < draw_card.Lastcard)
+                    {
+                        score += 100;
+                        Console.WriteLine($"score:{score}");
+                    }
+                    else 
+                    {
+                        score -= 75;
+                        Console.WriteLine($"score:{score}");
+                    }
                 }
-                else 
-                {
-                    score -= 75;
-                    Console.WriteLine($"score:{score}");
-                }
-            }
-            else if (guess == "l") 
-            {
 
-                if (new_card < draw_card.Lastcard)
-                {
-                    score += 100;
-                    Console.WriteLine($"score:{score}");
-                }
-                else 
-                {
-                    score -= 75;
-                    Console.WriteLine($"score:{score}");
-                }
-            }
-
-            
+                draw_card.Lastcard = new_card;
+            } 
         }
     }
 
