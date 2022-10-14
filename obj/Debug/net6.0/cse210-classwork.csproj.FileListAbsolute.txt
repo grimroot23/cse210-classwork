@@ -1,0 +1,15 @@
+C:\Users\Nick\Desktop\cse210\cse210-classwork\bin\Debug\net6.0\cse210-classwork.exe
+C:\Users\Nick\Desktop\cse210\cse210-classwork\bin\Debug\net6.0\cse210-classwork.deps.json
+C:\Users\Nick\Desktop\cse210\cse210-classwork\bin\Debug\net6.0\cse210-classwork.runtimeconfig.json
+C:\Users\Nick\Desktop\cse210\cse210-classwork\bin\Debug\net6.0\cse210-classwork.dll
+C:\Users\Nick\Desktop\cse210\cse210-classwork\bin\Debug\net6.0\cse210-classwork.pdb
+C:\Users\Nick\Desktop\cse210\cse210-classwork\obj\Debug\net6.0\cse210-classwork.csproj.AssemblyReference.cache
+C:\Users\Nick\Desktop\cse210\cse210-classwork\obj\Debug\net6.0\cse210-classwork.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nick\Desktop\cse210\cse210-classwork\obj\Debug\net6.0\cse210-classwork.AssemblyInfoInputs.cache
+C:\Users\Nick\Desktop\cse210\cse210-classwork\obj\Debug\net6.0\cse210-classwork.AssemblyInfo.cs
+C:\Users\Nick\Desktop\cse210\cse210-classwork\obj\Debug\net6.0\cse210-classwork.csproj.CoreCompileInputs.cache
+C:\Users\Nick\Desktop\cse210\cse210-classwork\obj\Debug\net6.0\cse210-classwork.dll
+C:\Users\Nick\Desktop\cse210\cse210-classwork\obj\Debug\net6.0\refint\cse210-classwork.dll
+C:\Users\Nick\Desktop\cse210\cse210-classwork\obj\Debug\net6.0\cse210-classwork.pdb
+C:\Users\Nick\Desktop\cse210\cse210-classwork\obj\Debug\net6.0\cse210-classwork.genruntimeconfig.cache
+C:\Users\Nick\Desktop\cse210\cse210-classwork\obj\Debug\net6.0\ref\cse210-classwork.dll

@@ -25,11 +25,10 @@ namespace CSE210_Hilo
         static void Main(string[] args)
         {
             int new_card = new Random().Next(1, 13);
-
             init_card_score draw_card = new init_card_score();
             draw_card.Lastcard = 0;
-
             draw_card.Card = new_card;
+            int score = 300;
 
             //get input of h or l
             Console.WriteLine("h or l: ");
@@ -37,19 +36,64 @@ namespace CSE210_Hilo
 
             if (guess == "h") 
             {
+
                 if (new_card > draw_card.Lastcard)
                 {
-                    Console.WriteLine("okayyyyyyyy");
+                    score += 100;
+                    Console.WriteLine($"score:{score}");
+                }
+                else 
+                {
+                    score -= 75;
+                    Console.WriteLine($"score:{score}");
+                }
+            }
+            else if (guess == "l") 
+            {
+
+                if (new_card < draw_card.Lastcard)
+                {
+                    score += 100;
+                    Console.WriteLine($"score:{score}");
+                }
+                else 
+                {
+                    score -= 75;
+                    Console.WriteLine($"score:{score}");
                 }
             }
 
-            
-            
             draw_card.Lastcard = new_card;
-            
-            
-            
-            //draw_card.Lastcard
+
+            if (guess == "h") 
+            {
+
+                if (new_card > draw_card.Lastcard)
+                {
+                    score += 100;
+                    Console.WriteLine($"score:{score}");
+                }
+                else 
+                {
+                    score -= 75;
+                    Console.WriteLine($"score:{score}");
+                }
+            }
+            else if (guess == "l") 
+            {
+
+                if (new_card < draw_card.Lastcard)
+                {
+                    score += 100;
+                    Console.WriteLine($"score:{score}");
+                }
+                else 
+                {
+                    score -= 75;
+                    Console.WriteLine($"score:{score}");
+                }
+            }
+
             
         }
     }
